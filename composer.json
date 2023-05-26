@@ -1,0 +1,19 @@
+{
+    "name": "matheus/jwt",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "Power\\": "framework/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Matheus Dresch",
+            "email": "matheus_dresch@sicredi.com.br"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
